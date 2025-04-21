@@ -55,7 +55,16 @@ Telegram Bot (сообщения + графики)
 
 4. Запусти DAG в Airflow
 
-
+### 📦 requirements.txt
+````markdown
+pandas
+numpy
+matplotlib
+seaborn
+python-telegram-bot==13.15
+apache-airflow
+pandahouse
+````
 ### 📁 Структура проекта
 ````markdown
 ├── bot_alert_1.py         # DAG и логика бота
